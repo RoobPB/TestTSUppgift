@@ -1,19 +1,19 @@
-import { Zip } from '../src/zip'; // Anpassa import-satsen till din mappstruktur
+import { Zip } from '../src/zip';
 
 describe('Zip', () => {
-  it('returns true for a valid 5-digit ZIP code', () => {
+  it('Ger true om 5 nummer', () => {
     expect(Zip('12345')).toBe(true);
   });
 
-  it('returns false for a 4-digit ZIP code', () => {
+  it('Ger false om 4', () => {
     expect(Zip('1234')).toBe(false);
   });
 
-  it('returns false for a 6-digit ZIP code', () => {
+  it('Ger false om 6', () => {
     expect(Zip('123456')).toBe(false);
   });
 
-  it('returns false for a non-numeric ZIP code', () => {
+  it('Ger false om ej nummer', () => {
     expect(Zip('abcde')).toBe(false);
   });
 });
