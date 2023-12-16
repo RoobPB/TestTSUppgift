@@ -5,6 +5,7 @@
   }*/
 
 // Uppdaterad för 4b-4c
+// Rundar upp priser och lägger till valutasymbolen
   export function roundPrice(price: number, pattern: string = '%PRICE% SEK'): string {
     const roundedPrice = Math.ceil(price * 100) / 100;
     return pattern.replace('%PRICE%', roundedPrice.toFixed(2));

@@ -1,5 +1,7 @@
 import { genitive } from '../src/genitive';
 
+
+// Lägger till s eller inte, beroende på namnets slutbokstav
 describe('genitive', () => {
   it('adds "s" to the end of a name not ending in "s"', () => {
     console.log(genitive('Jonatan'));

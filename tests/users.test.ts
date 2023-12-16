@@ -1,5 +1,7 @@
 import { getUsers } from '../src/users';
 
+
+// Använder async/await för att vänta på Promise
 describe('getUsers', () => {
   it('returns a list of users', async () => {
     const expectedUsers = [

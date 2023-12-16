@@ -1,4 +1,4 @@
-import { EmailTest } from '../src/email'; // Anpassa './validateEmail' så att den matchar sökvägen till din funktion
+import { EmailTest } from '../src/email';
 
 describe('validateEmail', () => {
   it('returns true for a valid email', () => {

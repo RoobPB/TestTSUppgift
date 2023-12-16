@@ -9,3 +9,4 @@ export function isPrimtal(number: number): boolean {
     }
     return true;
   }
+// Använder en loop för att testa delbarhet

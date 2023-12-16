@@ -5,4 +5,4 @@ export function getGroups(): Promise<{ id: number, groupName: string }[]> {
       { "id": 3, "groupName": "Zebrorna" }
     ]);
   }
-
+// Returnerar gruppinfo

@@ -8,3 +8,4 @@ export function getUsers(): Promise<{ name: string, group: number }[]> {
       { "name": "Anna", "group": 3 }
     ]);
   }
+// Returnerar en lista med användare
